@@ -1,18 +1,16 @@
 {
-  "name": "snake",
+  "name": "SNAKE",
   "version": "1.0.0",
-  "description": "",
+  "description": "un jeu super trop bien par gilou et gab",
   "main": "index.js",
   "scripts": {
-    "dev": "npx webpack-dev-server --mode=development",
     "prod": "npx webpack --mode=production",
-    "test": "echo \"Error : no test specified\" && exit 1"
+    "dev": "npx webpack-dev-server --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "prop-types": "^15.6.1",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0"
+  "author": "",
+  "license": "",
+  "bugs": {
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -25,6 +23,11 @@
     "webpack-cli": "^3.0.2",
     "webpack-dev-server": "^3.1.4"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  }
 }
